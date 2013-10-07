@@ -1,7 +1,5 @@
 <h1>Listing posts</h1>
 
-<%= link_to 'New post', new_post_path %>
-
 <table>
 	<tr>		
   <th>Title:</th>
@@ -11,8 +9,11 @@
     <tr>
       <td><%= post.title %></td>
       <td><%= post.text %></td>
+      <td><%= link_to 'Show', post_path %></td>
+      <td><%= link_to 'Edit', edit_post_path(post) %></td>
     </tr>
   <% end %>
 </table>
+<%= link_to 'New post', new_post_path %>
 
 
