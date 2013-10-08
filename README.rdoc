@@ -1,4 +1,4 @@
-Completed tutorial at: http://safe-caverns-2763.herokuapp.com/   
+Completed tutorial at: http://safe-caverns-2763.herokuapp.com/posts 
 
 == Welcome to Rails
 
